@@ -1,10 +1,10 @@
-title: Bayes Book
+title: ONU EDA
 description: First chapters of the book written by LambdaClass
 theme: jekyll-theme-tactile
 kramdown:
     math_engine: null
 defaults:
     - scope:
-        path: ""
+        path: "/Markdown"
       values:
         layout: default
