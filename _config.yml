@@ -5,6 +5,6 @@ kramdown:
     math_engine: null
 defaults:
     - scope:
-        path: "/Markdown"
+        path: ""
       values:
         layout: default
