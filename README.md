@@ -1,4 +1,6 @@
-# Imports and general settings
+# SUPER EDA ONU
+
+## Imports and general settings
 
 
 ```python
@@ -38,7 +40,7 @@ df.loc[df['RELACION_Y_TIPO_ENTRE_ACUSADO/A_Y_DENUNCIANTE'] == 'zona_sur'].replac
       return super().replace(
 
 
-# Data Munging
+## Data Munging
 
 
 ```python
@@ -233,7 +235,7 @@ df["FECHA_DEL_HECHO"] = pd.to_datetime(df["FECHA_DEL_HECHO"], format="%d_%m_%Y",
 df = df.set_index(pd.DatetimeIndex(data=df['FECHA_RESOLUCION'], yearfirst=True))
 ```
 
-# Cleaning
+## Cleaning
 
 
 ```python
@@ -456,7 +458,7 @@ df[df['RELACION_Y_TIPO_ENTRE_ACUSADO/A_Y_DENUNCIANTE'] == 'zona_sur']
 
 
 
-# For reference
+## For reference
 
 
 ```python
@@ -530,9 +532,7 @@ for index, elem in df.dtypes.items():
     61 . DECISION_CSJN ........ object
 
 
-# Plotting
-
-## Resoluciones por año
+## Plotting
 
 
 ```python
@@ -557,8 +557,6 @@ plt.show()
 
 ![png](output_21_0.png)
 
-
-## Types of violence per year
 
 
 ```python
